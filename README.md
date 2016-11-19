@@ -11,7 +11,12 @@ $ python setup.py sdist
 $ sudo pip install dist/pip_hello-0.1.tar.gz
 ```
 
-## Uninstall source dist
+## Install package from github
+```
+$ sudo pip install git+git://github.com/PerArneng/piphello.git
+```
+
+## Uninstall package
 ```
 $ sudo pip uninstall pip_hello
 ```
